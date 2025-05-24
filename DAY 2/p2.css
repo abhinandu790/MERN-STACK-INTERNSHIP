@@ -1,0 +1,19 @@
+h1{
+    color: brown;
+}
+body{
+    background-color: rgb(233, 219, 166);
+    text-align: center;
+}
+p{
+    color: rgb(1, 71, 1);
+    font-size: 12px;
+    ;
+}
+img{
+    
+    border: 5px solid brown;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
