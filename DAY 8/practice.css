@@ -1,0 +1,33 @@
+.upper{
+    background-color: blue;
+    color: white;
+    max-width:100vw;
+    height: 30vh;
+    text-align: center;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.third{
+    display: flex;
+    background-color: gainsboro;
+    margin-top: 25px;
+    padding: 125px;
+}
+
+input{
+    max-width: 20vw;
+    width: 20vw;
+
+}
+.like{
+    display: inline;
+}
+
+.nav1{
+    display: flex;
+    justify-content: end;
+}
