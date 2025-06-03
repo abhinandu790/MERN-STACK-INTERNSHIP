@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+
+2.Change the background color of the page when clicking a button.
+
+</p>
+    <div id="Demo2" style="background-color: seagreen; height: 30vh;">
+
+    </div>
+    <button type="button" onclick="document.getElementById('Demo2').style.backgroundColor='blue'">Change Colour</button><br>
+    <p>1.Count how many times a button is clicked.</p>
+    <p id="Demo"></p>
+    <button type="button" onclick="document.getElementById('Demo').innerHTML=x++">Click Me</button><br>
+    <p>
+
+3.Add two numbers entered by the user.
+
+</p>
+    <input type="text" id="one" placeholder="Enter first number">
+   <input type="text" id="two" placeholder="Enter second number">
+   <p id="Demo3"></p>
+   <button type="button" onclick=myFunction()>Add</button><br>
+   <p>4.Ask for the user's name and display a personalized greeting</p>
+   <input type="text" id="name" placeholder="Enter your name">
+   <h1 id="Demo4"></h1>
+    <button type="button" onclick=greet()>Submit</button><br>
+    <script>
+        function greet(){
+            let name=document.getElementById("name").value;
+            document.getElementById("Demo4").innerHTML = "Hello " + name + "!";
+
+        }
+        function myFunction() {
+            let x=parseFloat(document.getElementById("one").value);
+            let y=parseFloat(document.getElementById("two").value);
+            document.getElementById("Demo3").innerHTML = x + y;
+           
+        }
+        var x=1;
+
+        
+    </script>
+    
+    
+    
+    
+    
+</body>
+</html>

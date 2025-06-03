@@ -1,0 +1,64 @@
+ .bt1{
+    border-radius: 25px;
+    
+}
+nav{
+    
+} 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px; /* Adjust spacing as needed */
+}
+
+.bt1 {
+  border-radius: 25px;
+  background-color: #febe42;
+  color: black;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+body{
+    background-color: black;
+}
+.btn2{
+    background: transparent;
+    color: white;
+    border: 1px white solid;
+    border-radius: 25px;
+}
+.one{
+    color: white;
+    padding-top: 120px;
+}
+.cr{
+    font-weight: bolder;
+    font-size: 45px;
+}
+ .dropdown-submenu {
+      position: relative;
+    }
+
+    .dropdown-submenu .dropdown-menu {
+      top: 0;
+      left: 100%;
+      margin-top: -1px;
+      display: none;
+    }
+
+    .dropdown-submenu:hover .dropdown-menu {
+      display: block;
+    }
+    .sec{
+        color: white;
+        display: flex;
+    }
+    .img1{
+        height: auto;
+    
+        padding-top: 125px;
+    }
