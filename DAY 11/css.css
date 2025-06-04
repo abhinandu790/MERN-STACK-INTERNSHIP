@@ -1,0 +1,29 @@
+.up{
+    background-color: rgba(0, 0, 0, 0.301);
+    height: 400px;
+    max-width: 400px;
+    margin-top: 120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+button{
+    width: 80px;
+    background-color: white;
+    border: 1px solid black;
+    height: 40px;
+    padding: 5px;
+}
+.num{
+    
+    padding-top: 120px;
+    padding-left: 25px;
+    
+}
+#display{
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 310px;
+    margin-top: 0;
+}
